@@ -12,7 +12,7 @@ Static site for Mary Nink: actress, singer, voice & acting coach. Plain HTML, CS
 | `about.html` | Bio, at-a-glance facts, off-stage work |
 | `resume.html` | Credits rendered on the page, PDF download, print-friendly |
 | `media.html` | Embedded reel with tracklist, other performances, photos |
-| `teaching.html` | Lessons: who it is for, offerings, how it works, rates |
+| `teaching.html` | Lessons: who it is for, offerings, how it works |
 | `contact.html` | Email, social links, contact form |
 | `404.html` | Served by GitHub Pages for any missing path |
 
@@ -24,7 +24,6 @@ Each page is self-contained. The header and footer are repeated in every file, s
 
 Things marked `TODO` in the HTML, or shown in `[BRACKETS]` on the live site, still need real content:
 
-- Lesson rates (`teaching.html`), or delete the Rates section
 - The two Wix-hosted videos on `media.html` (Meadowlark, What Baking Can Do on piano). Upload them to YouTube and point the cards at the watch URLs, or embed them like the reel.
 
 ## Images and the résumé PDF
