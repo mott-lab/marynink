@@ -24,8 +24,6 @@ Each page is self-contained. The header and footer are repeated in every file, s
 
 Things marked `TODO` in the HTML, or shown in `[BRACKETS]` on the live site, still need real content:
 
-- Voice type and range (`about.html`, `resume.html`)
-- Representation (`resume.html`, `contact.html`), or delete those lines
 - Lesson rates (`teaching.html`), or delete the Rates section
 - The two Wix-hosted videos on `media.html` (Meadowlark, What Baking Can Do on piano). Upload them to YouTube and point the cards at the watch URLs, or embed them like the reel.
 
