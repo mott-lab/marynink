@@ -28,7 +28,9 @@ Things marked `TODO` in the HTML, or shown in `[BRACKETS]` on the live site, sti
 
 ## Images
 
-Two downloadable PDFs live in `assets/`: `Mary-Nink-Resume.pdf` (one-page theatrical résumé) and `Mary-Nink-CV.pdf` (professional CV). Replace a file to update its download; keep the names so the links stay stable.
+Two downloadable PDFs live in `assets/`: `Mary-Nink-Resume.pdf` (one-page theatrical résumé) and `Mary-Nink-CV.pdf` (professional CV). Keep the names so the links stay stable.
+
+The theatrical résumé is generated from `src/resume-pdf.html`. To update it, edit that file and run `node src/render-resume-pdf.js` (needs Playwright with Chromium and the Caladea font installed); the PDF is written to `assets/`. The CV is maintained outside the repo; replace the file to update it.
 
 The pages currently load photos and thumbnails **directly from Wix's CDN**, so the site works before anything is copied over. Before the Wix site is deleted, bring those files into this repo:
 
