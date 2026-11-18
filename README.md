@@ -26,9 +26,11 @@ Things marked `TODO` in the HTML, or shown in `[BRACKETS]` on the live site, sti
 
 - The two Wix-hosted videos on `media.html` (Meadowlark, What Baking Can Do on piano). Upload them to YouTube and point the cards at the watch URLs, or embed them like the reel.
 
-## Images and the résumé PDF
+## Images
 
-The pages currently load photos, thumbnails and the résumé PDF **directly from Wix's CDN**, so the site works before anything is copied over. Before the Wix site is deleted, bring those files into this repo:
+The résumé PDF lives at `assets/Mary-Nink-Resume.pdf`; replace that file to update the download (keep the name so the link stays stable).
+
+The pages currently load photos and thumbnails **directly from Wix's CDN**, so the site works before anything is copied over. Before the Wix site is deleted, bring those files into this repo:
 
 ```bash
 bash scripts/localize-images.sh
