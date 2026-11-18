@@ -2,7 +2,7 @@
 
 Static site for Mary Nink: actress, singer, voice & acting coach. Plain HTML, CSS and a little JavaScript; no build step. Hosted on GitHub Pages.
 
-**Live:** https://mott-lab.github.io/marynink/
+**Live:** https://marynink.com/ (custom domain; `www.marynink.com` redirects here; the old `mott-lab.github.io/marynink/` address redirects as well)
 
 ## Pages
 
@@ -52,12 +52,12 @@ By default the form opens the visitor's mail app with the message pre-filled (wo
 
 GitHub Pages serves the `main` branch from the repository root (Settings → Pages → Deploy from a branch → `main` / `/ (root)`). Every push to `main` redeploys within a minute or two.
 
-### Custom domain (later)
+### Custom domain
 
 1. Buy the domain (Cloudflare, Porkbun and Namecheap are all fine; roughly $10–15/year for a `.com`).
-2. At the registrar, add DNS records: four `A` records for the apex pointing at GitHub Pages' IPs (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) and a `CNAME` for `www` pointing at `mott-lab.github.io`.
+2. At the registrar, add DNS records: four `A` records for the apex pointing at GitHub Pages' IPs (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) and a `CNAME` for `www` pointing at `mott-lab.github.io`. (Done, November 2026, at Wix.)
 3. In the repo: Settings → Pages → Custom domain → enter the domain, then tick "Enforce HTTPS" once the certificate is issued.
-4. In this repo, replace `https://mott-lab.github.io/marynink/` with the new domain in the `<link rel="canonical">` and `og:url` tags of each page, and change `/marynink/` to `/` in `404.html`.
+4. In this repo, replace `https://marynink.com/` with the new domain in the `<link rel="canonical">` and `og:url` tags of each page, and change `/marynink/` to `/` in `404.html`.
 
 GitHub's reference: https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site
 

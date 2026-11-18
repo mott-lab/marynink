@@ -45,7 +45,7 @@ rewrite "https://static\.wixstatic\.com/media/5681b1_f1ef5cc8d15c46eebb0e040ecee
 rewrite "https://i\.ytimg\.com/vi/K8fSyA7ZMkI/maxresdefault\.jpg" "assets/img/thumb-reel.jpg"
 
 # og:image tags need an absolute URL; point them at the hosted copy of the headshot.
-SITE_URL="${SITE_URL:-https://mott-lab.github.io/marynink}"
+SITE_URL="${SITE_URL:-https://marynink.com}"
 sed -i -E "s#content=\"https://static\.wixstatic\.com/media/5681b1_0198e34753824c97a51f817c208abb28~mv2\.jpg[^\"]*\"#content=\"$SITE_URL/assets/img/headshot.jpg\"#g" index.html
 sed -i -E "s#content=\"https://i\.ytimg\.com/vi/K8fSyA7ZMkI/maxresdefault\.jpg\"#content=\"$SITE_URL/assets/img/thumb-reel.jpg\"#g" media.html
 
