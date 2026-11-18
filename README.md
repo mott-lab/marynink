@@ -10,7 +10,7 @@ Static site for Mary Nink: actress, singer, voice & acting coach. Plain HTML, CS
 |---|---|
 | `index.html` | Home: hero, latest credit, reel teaser, teaching teaser |
 | `about.html` | Bio, at-a-glance facts, off-stage work |
-| `resume.html` | Credits rendered on the page, PDF download, print-friendly |
+| `resume.html` | Credits rendered on the page, theatrical résumé and professional CV downloads, print-friendly |
 | `media.html` | Embedded reel with tracklist, other performances, photos |
 | `teaching.html` | Lessons: who it is for, offerings, how it works |
 | `contact.html` | Email, social links, contact form |
@@ -28,7 +28,7 @@ Things marked `TODO` in the HTML, or shown in `[BRACKETS]` on the live site, sti
 
 ## Images
 
-The résumé PDF lives at `assets/Mary-Nink-Resume.pdf`; replace that file to update the download (keep the name so the link stays stable).
+Two downloadable PDFs live in `assets/`: `Mary-Nink-Resume.pdf` (one-page theatrical résumé) and `Mary-Nink-CV.pdf` (professional CV). Replace a file to update its download; keep the names so the links stay stable.
 
 The pages currently load photos and thumbnails **directly from Wix's CDN**, so the site works before anything is copied over. Before the Wix site is deleted, bring those files into this repo:
 
