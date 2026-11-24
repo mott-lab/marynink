@@ -372,11 +372,13 @@ a.pill:hover { border-color: var(--ink); color: var(--ink); }
 }
 .photo-grid figcaption { margin-top: 8px; font-size: 14px; color: var(--muted); }
 
+/* Whole photo, uncropped: scales to fit within the column width and 640px tall. */
 .banner-photo img {
-  width: 100%; aspect-ratio: 21 / 9; object-fit: cover;
+  display: block; margin: 0 auto;
+  width: auto; height: auto; max-width: 100%; max-height: 640px;
   border-radius: var(--radius-lg); background: var(--paper-2);
 }
-@media (max-width: 760px) { .banner-photo img { aspect-ratio: 4 / 3; } }
+@media (max-width: 760px) { .banner-photo img { max-height: 520px; } }
 
 .portrait img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 10px; }
 .portrait--4x5 img { aspect-ratio: 4 / 5; }
